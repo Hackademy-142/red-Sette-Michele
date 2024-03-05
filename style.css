@@ -1,0 +1,75 @@
+body {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.tx-1 {
+    color:darkred;
+}
+
+.tx-2 {
+    color: #C67F7F;
+}
+.tx-3 {
+    color: #ececec; 
+}
+
+.bg-1 {
+    background-color: #ececec;
+}
+.bg-2 {
+    background-color: darkred;
+}
+
+.immagine img {
+    width: 120px;
+}
+
+div h1{
+    position: absolute;
+    left: 45%;
+    top: 35%;
+}
+.montagne {
+    background-image: url(./media/switzerland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh; 
+    position: absolute;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.mountains {
+    background-image: url(./media/mountains.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+        
+}
+
+.monta {
+    background-image: url(./media/trees2.png);
+    background-position: bottom;
+    background-color: #ECECEC;
+    
+}
+
+.alberi {
+    background-image: url(./media/single.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.loghino {
+    width: 120px;
+    height: 120px;
+    border: 3px solid darkred;
+}
+
+.benefit {
+    border: 3px solid darkred;
+    border-radius: 50%;
+}
