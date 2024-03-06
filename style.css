@@ -27,12 +27,12 @@ body {
 }
 
 .immg {
-    background-image: url(./media/switzerland.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0)), url(./media/switzerland.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #ECECEC;
     height: 70vh;
-    opacity: 70%;
+    
 }
 h1 {
     position: relative;
