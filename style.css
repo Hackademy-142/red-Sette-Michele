@@ -27,18 +27,24 @@ body {
 }
 
 .immg {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0)), url(./media/switzerland.jpg);
+    background-image: linear-gradient(to bottom, rgb(236, 236, 236) 15%, rgba(255, 255, 255, 0)), url(./media/switzerland.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #ECECEC;
     height: 70vh;
-    
 }
+
+.sopra {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+}
+
 h1 {
     position: relative;
     top: 30vh;
- 
-    
+    letter-spacing: 50px; 
+    font-size: 57px;   
 }
 
 .montagne {
