@@ -26,11 +26,21 @@ body {
     width: 120px;
 }
 
-div h1{
-    position: absolute;
-    left: 45%;
-    top: 35%;
+.immg {
+    background-image: url(./media/switzerland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ECECEC;
+    height: 70vh;
+    opacity: 70%;
 }
+h1 {
+    position: relative;
+    top: 30vh;
+ 
+    
+}
+
 .montagne {
     background-image: url(./media/switzerland.jpg);
     background-position: center;
@@ -73,3 +83,19 @@ div h1{
     border: 3px solid darkred;
     border-radius: 50%;
 }
+
+.designe_underline {
+    position: relative;
+}
+
+.designe_underline::after {
+    position: absolute;
+    content: '';
+    bottom: -30%;
+    left: 10%;
+    width: 79%;
+    height: 10%;
+    background-color: darkred;
+
+}
+
